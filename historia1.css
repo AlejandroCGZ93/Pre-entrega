@@ -1,0 +1,168 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #427E80;
+    color: #F0F5E4;
+}
+
+/* nav */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 40px;
+
+}
+
+.botonera {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+
+}
+
+.botones {
+    list-style-type: none;
+
+}
+
+.opcion {
+    text-decoration: none;
+    box-sizing: border-box;
+    background-color: #F0F5E4;
+    color: #154454;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 3px 3px #154454;
+}
+
+
+/*fin nav*/
+
+header {
+    background-image: url(./assets/imagenes/codigo.jpeg);
+    display: flex;
+    height: 400px;
+    background-size: cover;
+    font-size: 25px;
+    justify-content: space-around;
+    color: #eeee;
+    align-items: center;
+     
+}
+
+h1{ 
+    text-align: center;
+    background-color: #2D2D2D;
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+
+
+
+/*principal*/
+
+.caja {
+    display: flex;
+    padding: 100px 20px;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.caja_historia{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 80px 50px;
+
+}
+
+p {
+    color: #000;
+
+}
+
+.texto-historia {
+    width: 100%;
+
+}
+
+.caja_video {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+    
+}
+
+.seccion_caja {
+    width: 70%;
+    background-color: #000;
+
+}
+
+.barra_video {
+    background-color: #2D2D2D;
+    padding: 5px 5px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.botones_video {
+    display: flex;
+    gap: 20px;
+   
+}
+
+#pause, #play {
+    width: 100px;
+    border-radius: 10px;
+
+}
+
+
+
+.tiempo_video {
+    background-color: #F0F5E4;
+
+}
+
+
+/* Fin Principal */
+/* Pie */
+
+footer {
+    background-color: #1e1e1e;
+    color: #eeee;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+
+}
+
+.Pagina_pie {
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.programacion_historia {
+    text-align: center;
+    font-size: 15px;
+}
