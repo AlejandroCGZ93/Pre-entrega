@@ -40,15 +40,60 @@ nav {
     border-radius: 10px;
     padding: 10px;
     box-shadow: 3px 3px #154454;
+    
 }
 
 
+rect#form1, polygon#cont1 {
+    animation: parte_1 ease-in 5s;
+    animation-iteration-count:1;
+
+}
+
+rect#form2, polygon#cont2 {
+    animation: parte_2 ease-in 5s;
+    animation-iteration-count:1;
+}
+
+@keyframes parte_1{
+    0% {
+    transform: translate(0,-10px);
+    opacity:0;}
+    20% {
+    transform: translate(0,-10px);
+    opacity:0;}
+    30% {
+    transform: translate(0,0);
+    opacity:1;}
+    90% {
+    transform: translate(0,0);
+    opacity:1;}
+    
+    100% {
+        transform: translate(0,0);
+        opacity:1;}
+}   
+    
+
+@keyframes parte_2 {
+    0% {
+        transform: translate(0,-10px);
+        opacity:0;}
+        30% {
+        transform: translate(0,-10px);
+        opacity:0;}
+        40% {
+        transform: translate(0,0);
+        opacity:1;}
+        90% {
+        transform: translate(0,0);
+        opacity:1;}
+
+        100% {
+            transform:translate(0,0);
+            opacity:1;}
+        }  
 /*fin nav*/
-
-
-
-
-
 /*principal*/
 
 header {
@@ -63,6 +108,7 @@ header {
      
     
 }
+
 
 h1{ 
     text-align: center;
